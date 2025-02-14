@@ -13,4 +13,9 @@ export class AppController {
   getJson() {
     return this.appService.getJson();
   }
+  
+  @Get('/showGit') //localhost:3000/showGit
+  getGit() {
+    return this.appService.getGit();
+  }
 }

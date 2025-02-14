@@ -11,5 +11,9 @@ export class AppService {
       lastname: 'Gertye',
       age: 99,
     };
+  }
+  getGit() {
+    return 'Git and GitHub using';
+  }
 }
-}
+
